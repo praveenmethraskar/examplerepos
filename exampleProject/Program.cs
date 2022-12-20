@@ -2,11 +2,12 @@
 
 namespace exampleProject
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Inherit obj = new Inherit();
+            obj.Inherit1();
         }
     }
 }

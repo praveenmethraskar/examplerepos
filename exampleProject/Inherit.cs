@@ -4,7 +4,12 @@ using System.Text;
 
 namespace exampleProject
 {
-    internal class Inherit
+    public class Inherit
     {
+        public void Inherit1()
+        {
+            Console.WriteLine("klnaklsfd");
+        }
+        
     }
 }
